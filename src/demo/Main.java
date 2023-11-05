@@ -81,7 +81,7 @@ public class Main {
 			// モンスターグループに誰もいなくなれば、人間グループの勝利
 			if(monsters.isEmpty()) {
 				System.out.println("★★" + "" + "====" + "決着がついた！！" + "====" + "" + "★★" );
-				System.out.println("####" + "" + "人間達の勝利した！！" + "" + "####");
+				System.out.println("####" + "" + "人間達は勝利した！！" + "" + "####");
 			
 				break;
 			}
