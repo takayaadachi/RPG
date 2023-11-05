@@ -10,22 +10,7 @@ public class Wizard extends Human {
 		offensive = utils.Dice.get(12, 18);
 		
 	}
-	public String getName() {
-		return this.name;
-		
-	}
-	public String getWeapon() {
-		return this.weapon;
-		
-	}
-	public int getHp() {
-		return this.hp;
-		
-	}
-	public int getOffensive() {
-		return this.offensive;
-		
-	}
+	
 	
 
 }

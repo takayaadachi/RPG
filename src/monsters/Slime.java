@@ -10,20 +10,6 @@ public class Slime extends Monster {
 		offensive = utils.Dice.get(5, 11);
 	}
 	
-	public String getName() {
-		return this.name;
-	}
 	
-	public String getWeapon() {
-		return this.weapon;
-	}
-	
-	public int getHp() {
-		return this.hp;
-	}
-	
-	public int getOffensive() {
-		return this.offensive;
-	}
 
 }

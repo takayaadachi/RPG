@@ -8,22 +8,6 @@ public class Brave extends Human {
 	    hp = utils.Dice.get(170, 230);
 	    offensive = utils.Dice.get(7, 13);
 		
-	}
-	public String getName() {
-		return this.name;
-		
-	}
-	public String getWeapon() {
-		return this.weapon;
-		
-	}
-	public int getHp() {
-		return this.hp;
-		
-	}
-	public int getOffensive() {
-		return this.offensive;
-		
-	}	
+}	
 
 }
